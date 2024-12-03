@@ -12,7 +12,7 @@ function Skill() {
           skills.map((skill, index) => (
             <div key={index} className='p-10 bg-content flex flex-col items-center rounded-lg space-y-8'>
               <img 
-                src={`/src/assets/images/skill/${skill.toLowerCase()}.png`} 
+                src={`%PUBLIC_URL%/images/skill/${skill.toLowerCase()}.png`} 
                 alt={skill}
                 className='h-[120px]'
               />
