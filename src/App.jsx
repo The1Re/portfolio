@@ -1,6 +1,6 @@
 import './App.css'
 import { Navbar, Line } from './components'
-import { Home } from './sections'
+import { Home, About, Skill, Experience, Contact } from './sections'
 
 function App() {
 
@@ -9,6 +9,10 @@ function App() {
       <Navbar />
       <Home />
       <Line />
+      <About />
+      <Skill />
+      <Experience />
+      <Contact />
     </>
   )
 }

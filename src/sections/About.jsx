@@ -1,8 +1,14 @@
 
 function About() {
-  return (
-    <section id="About" className="h-screen w-full">
+  const content = "I'm Kanesh Orachunlertmitri Currently studying for a Bachelor's degree in Computer Engineering at Kasetsart University. "
 
+  return (
+    <section id="About" className="w-full mt-32 lg:px-48">
+      <div className="inline-block">
+        <h1 className="text-primary text-4xl font-bold">Learn about me</h1>
+        <div className="w-[40%] h-[5px] bg-primary mt-4"></div>
+      </div>
+      <p className="mt-4 text-2xl">{content}</p>
     </section>
   )
 }

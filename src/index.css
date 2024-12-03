@@ -8,3 +8,8 @@
         @apply text-white;
     }
 }
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 150px;
+}
