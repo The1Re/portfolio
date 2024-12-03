@@ -8,13 +8,3 @@
         @apply text-white;
     }
 }
-
-img #profile::before {
-    content: '';
-    position: absolute;
-    right: -10px;
-    bottom: -10px;
-    background-color: #2b2d41;
-    width: 1000px;
-    height: 1000px;
-}
