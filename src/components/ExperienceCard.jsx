@@ -1,7 +1,8 @@
+import PropTypes from "prop-types"
 
-function ExperienceCard({id, title, created, descripttion, skill, link}) {
+function ExperienceCard({title, created, descripttion, skill, link}) {
   return (
-    <div key={id} className="grid grid-cols-[40%_60%] mb-16">
+    <div className="grid grid-cols-[40%_60%] mb-16">
         <div className="">
             <p>{created}</p>
             <img 
@@ -32,6 +33,14 @@ function ExperienceCard({id, title, created, descripttion, skill, link}) {
         </div>
     </div>
   )
+}
+
+ExperienceCard.propTypes = {
+    title: PropTypes.string,
+    created: PropTypes.string,
+    descripttion: PropTypes.array,
+    skill: PropTypes.array,
+    link: PropTypes.string
 }
 
 export default ExperienceCard
