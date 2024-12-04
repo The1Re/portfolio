@@ -14,7 +14,6 @@ function SkillCard({title}) {
 }
 
 SkillCard.propTypes = {
-    id: PropTypes.number.isRequired,
     title: PropTypes.string
 }
 

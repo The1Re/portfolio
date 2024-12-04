@@ -1,9 +1,9 @@
 import Navbar from "./Navbar";
 import Line from "./Line";
-import ExperienceCard from "./ExperienceCard";
+import ScrollToTop from "./ScrollToTop";
 
 export {
     Navbar,
     Line,
-    ExperienceCard
+    ScrollToTop
 }

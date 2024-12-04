@@ -1,8 +1,6 @@
-import Line from '../components/Line'
-
 function Contact() {
   return (
-    <section id="Contact" className="w-full mt-32 px-4 lg:px-48 mb-32">
+    <section id="Contact" className="mt-32">
       <div className="inline-block">
         <h1 className="text-primary text-4xl font-bold">Contact Me</h1>
         <div className="w-[40%] h-[5px] bg-primary mt-4"></div>
@@ -31,9 +29,6 @@ function Contact() {
         <a href="https://www.instagram.com/iiamthefirst" className="text-primary text-3xl hover:transition-transform hover:scale-125">
           <i className="fa-brands fa-instagram"></i>
         </a>
-      </div>
-      <div className='mt-24'>
-        <Line />
       </div>
     </section>
   )
