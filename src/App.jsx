@@ -1,18 +1,14 @@
 import './App.css'
-import { Navbar, Line } from './components'
-import { Home, About, Skill, Experience, Contact } from './sections'
+import { Navbar, ScrollToTop } from './components'
+import Content from './sections/Content'
 
 function App() {
 
   return (
     <>
       <Navbar />
-      <Home />
-      <Line />
-      <About />
-      <Skill />
-      <Experience />
-      <Contact />
+      <Content />
+      <ScrollToTop />
     </>
   )
 }
