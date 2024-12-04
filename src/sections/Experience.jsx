@@ -14,7 +14,7 @@ function Experience() {
               <div className="">
                 <p>{data.created}</p>
                 <img 
-                  src={`/src/assets/images/experience/${data.title.replaceAll(' ', '').toLowerCase()}.png`} 
+                  src={`/images/experience/${data.title.replaceAll(' ', '').toLowerCase()}.png`} 
                   alt={data.title} 
                   className='mt-2 w-[90%]'
                 />

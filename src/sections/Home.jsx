@@ -1,5 +1,3 @@
-import profile from '../assets/images/profile.png'
-
 function Home() {
   return (
     <section id="Home" className="h-screen w-full flex py-[100px] lg:px-48">
@@ -28,7 +26,7 @@ function Home() {
         <div className="flex items-center">
           <div className='relative inline-block'>
             <div className="absolute top-6 left-6 w-full h-full bg-content rounded-lg z-[1]"></div>
-            <img id="profile" src={profile} alt="profile" className='relative z-[2] max-w-[428px] max-h-[608px] rounded-lg'/>
+            <img id="profile" src='/images/profile.png' alt="profile" className='relative z-[2] max-w-[428px] max-h-[608px] rounded-lg'/>
           </div>
         </div>
       </div>
