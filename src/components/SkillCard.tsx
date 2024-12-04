@@ -6,7 +6,7 @@ interface ISkillCard {
 
 function SkillCard({title} : ISkillCard) {
   return (
-    <div className='p-10 bg-content flex flex-col items-center rounded-lg space-y-8 lg:basis-1/6'>
+    <div className='p-10 bg-content flex flex-col items-center rounded-lg space-y-8 lg:basis-1/6 hover:scale-105 transition-transform'>
         <img 
         src={`/images/skill/${title.toLowerCase()}.png`} 
         alt={title}
