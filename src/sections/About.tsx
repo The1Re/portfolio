@@ -1,3 +1,5 @@
+import React from "react"
+
 function About() {
   const content = "I'm Kanesh Orachunlertmitri Currently studying for a Bachelor's degree in Computer Engineering at Kasetsart University. "
 

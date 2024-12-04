@@ -1,3 +1,4 @@
+import React from 'react'
 import './App.css'
 import { Navbar, ScrollToTop } from './components'
 import Content from './sections/Content'

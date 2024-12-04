@@ -2,7 +2,7 @@ export const experiences = [
     {
         title: 'Military Management',
         created: 'Oct 2024',
-        descripttion: [
+        description: [
             "Project database and management system learn about mvc",
             "Designed and created a database for a military management web application"
         ],
@@ -14,7 +14,7 @@ export const experiences = [
     {
         title: 'Class Schedule Management',
         created: 'Aug 2024',
-        descripttion: [
+        description: [
             "It is an application designed to assist instructors in scheduling classes for students, addressing issues such as overlapping sections and conflicting schedules for instructors after the timetable has been arranged. "
         ],
         skill: [
@@ -25,7 +25,7 @@ export const experiences = [
     {
         title: "Server Status Checker",
         created: 'Jul 2024',
-        descripttion: [
+        description: [
             "Created Flutter application for andriod that checks if an Ip address or HTTP is still online."
         ],
         skill: [

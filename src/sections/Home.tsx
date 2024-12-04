@@ -1,3 +1,5 @@
+import React from "react"
+
 function Home() {
   return (
     <section id="Home" className="h-screen flex py-[100px]">

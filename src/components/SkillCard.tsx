@@ -1,6 +1,10 @@
-import PropTypes from "prop-types"
+import React from "react"
 
-function SkillCard({title}) {
+interface ISkillCard {
+  title: string
+}
+
+function SkillCard({title} : ISkillCard) {
   return (
     <div className='p-10 bg-content flex flex-col items-center rounded-lg space-y-8 lg:basis-1/6'>
         <img 
@@ -13,8 +17,5 @@ function SkillCard({title}) {
   )
 }
 
-SkillCard.propTypes = {
-    title: PropTypes.string
-}
 
 export default SkillCard
