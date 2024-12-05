@@ -1,7 +1,12 @@
-interface Experience {
-    title: string;
-    created: string;
-    description: string[];
-    skill: string[];
-    link: string;
+interface IExperience {
+    title: string,
+    created: string,
+    description: string[],
+    skill: string[],
+    image: string,
+    link: string,
+}
+
+export {
+    IExperience
 }

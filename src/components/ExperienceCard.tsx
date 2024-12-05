@@ -1,20 +1,13 @@
 import React from "react"
+import { IExperience } from "../types"
 
-interface IExperienceCard {
-    title: string,
-    created: string,
-    description: string[],
-    skill: string[],
-    link: string
-}
-
-function ExperienceCard({title, created, description, skill, link} : IExperienceCard) {
+function ExperienceCard({title, created, description, skill, image, link} : IExperience) {
   return (
     <div className="grid grid-cols-[40%_60%] mb-16">
         <div className="">
             <p>{created}</p>
             <img 
-                src={`/images/experience/${title.replaceAll(' ', '').toLowerCase()}.png`} 
+                src={image} 
                 alt={title} 
                 className='mt-2 w-[90%]'
             />

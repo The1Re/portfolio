@@ -1,6 +1,7 @@
 import React from 'react'
 import { experiences } from '../contents/experience'
 import ExperienceCard from '../components/ExperienceCard'
+import { IExperience } from '../types'
 
 function Experience() {
   return (
@@ -11,13 +12,14 @@ function Experience() {
       </div>
       <div className="mt-12 flex flex-col">
         {
-          experiences.map((data: Experience, index) => (
+          experiences.map((data: IExperience, index) => (
             <ExperienceCard 
               key={index}
               title={data.title}
               created={data.created}
               description={data.description}
               skill={data.skill}
+              image={data.image}
               link={data.link}
             />
           ))

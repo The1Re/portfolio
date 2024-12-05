@@ -1,4 +1,6 @@
-export const experiences = [
+import { IExperience } from "../types";
+
+export const experiences: IExperience[] = [
     {
         title: 'Military Management',
         created: 'Oct 2024',
@@ -9,6 +11,7 @@ export const experiences = [
         skill: [
             "PHP", "HTML", "CSS", "MySQL"
         ],
+        image: '/images/experience/militarymanagement.png',
         link: "https://github.com/The1Re/ku-military"
     },
     {
@@ -20,6 +23,7 @@ export const experiences = [
         skill: [
             "React", "TypeScript", "TailwindCSS"
         ],
+        image: '/images/experience/militarymanagement.png',
         link: "https://github.com/The1Re/class-schedule-management.git"
     },
     {
@@ -31,6 +35,7 @@ export const experiences = [
         skill: [
             "Flutter", "Dart"
         ],
+        image: '/images/experience/serverstatuschecker.png',
         link: "https://github.com/The1Re/ip_checker.git"
     }
 ]
