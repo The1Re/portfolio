@@ -1,6 +1,7 @@
 import React from 'react'
 import { skills } from '../contents/skill'
 import SkillCard from '../components/SkillCard'
+import { ISkill } from '../types'
 
 function Skill() {
   return (
@@ -11,10 +12,11 @@ function Skill() {
       </div>
       <div className="mt-12 flex flex-wrap gap-6 lg:gap-12 flex-grow-0 justify-center">
         {
-          skills.map((skill, index) => (
+          skills.map((skill: ISkill, index) => (
             <SkillCard 
               key={index}
-              title={skill}
+              title={skill.title}
+              image={skill.image}
             />
           ))
         }

@@ -1,4 +1,8 @@
 import { IExperience } from "../types";
+import image1 from '../assets/images/experience/militarymanagement.png'
+import image2 from '../assets/images/experience/classschedulemanagement.png'
+import image3 from '../assets/images/experience/serverstatuschecker.png'
+import image4 from '../assets/images/experience/cafemanagement.png'
 
 export const experiences: IExperience[] = [
     {
@@ -11,7 +15,7 @@ export const experiences: IExperience[] = [
         skill: [
             "PHP", "HTML", "CSS", "MySQL"
         ],
-        image: '/images/experience/militarymanagement.png',
+        image: image1,
         link: "https://github.com/The1Re/ku-military"
     },
     {
@@ -23,7 +27,7 @@ export const experiences: IExperience[] = [
         skill: [
             "React", "TypeScript", "TailwindCSS"
         ],
-        image: '/images/experience/classschedulemanagement.png',
+        image: image2,
         link: "https://github.com/The1Re/class-schedule-management"
     },
     {
@@ -35,7 +39,7 @@ export const experiences: IExperience[] = [
         skill: [
             "Flutter", "Dart"
         ],
-        image: '/images/experience/serverstatuschecker.png',
+        image: image3,
         link: "https://github.com/The1Re/ip_checker"
     },
     {
@@ -48,7 +52,7 @@ export const experiences: IExperience[] = [
         skill: [
             "JavaFX"
         ],
-        image: '/images/experience/cafemanagement.png',
+        image: image4,
         link: "https://github.com/The1Re/fresh-cafe"
     }
 ]
