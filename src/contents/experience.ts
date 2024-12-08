@@ -23,8 +23,8 @@ export const experiences: IExperience[] = [
         skill: [
             "React", "TypeScript", "TailwindCSS"
         ],
-        image: '/images/experience/militarymanagement.png',
-        link: "https://github.com/The1Re/class-schedule-management.git"
+        image: '/images/experience/classschedulemanagement.png',
+        link: "https://github.com/The1Re/class-schedule-management"
     },
     {
         title: "Server Status Checker",
@@ -36,6 +36,19 @@ export const experiences: IExperience[] = [
             "Flutter", "Dart"
         ],
         image: '/images/experience/serverstatuschecker.png',
-        link: "https://github.com/The1Re/ip_checker.git"
+        link: "https://github.com/The1Re/ip_checker"
+    },
+    {
+        title: "Cafe Management System",
+        created: 'Oct 2023',
+        description: [
+            "Create an application to manage cafe like POS",
+            "Create and manage databases using file management."
+        ],
+        skill: [
+            "JavaFX"
+        ],
+        image: '/images/experience/cafemanagement.png',
+        link: "https://github.com/The1Re/fresh-cafe"
     }
 ]

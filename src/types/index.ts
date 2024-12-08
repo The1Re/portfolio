@@ -7,6 +7,11 @@ interface IExperience {
     link: string,
 }
 
+interface IAbout {
+    content: string
+}
+
 export {
-    IExperience
+    IExperience,
+    IAbout
 }

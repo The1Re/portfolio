@@ -25,10 +25,10 @@ function Home() {
             </a>
           </div>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center scale-50 md:scale-100">
           <div className='relative inline-block'>
             <div className="absolute top-6 left-6 w-full h-full bg-content rounded-lg z-[1]"></div>
-            <img id="profile" src='/images/profile.png' alt="profile" className='relative z-[2] max-w-[428px] max-h-[608px] rounded-lg'/>
+            <img id="profile" src='/images/profile.png' alt="profile" className='relative z-[2] md:max-w-[428px] md:max-h-[608px] rounded-lg'/>
           </div>
         </div>
       </div>
