@@ -1,3 +1,4 @@
+import React from 'react'
 import { Line } from '../components'
 import { Home, About, Skill, Experience, Contact } from './index'
 

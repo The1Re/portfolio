@@ -1,12 +1,13 @@
-import PropTypes from "prop-types"
+import React from "react"
+import { IExperience } from "../types"
 
-function ExperienceCard({title, created, descripttion, skill, link}) {
+function ExperienceCard({title, created, description, skill, image, link} : IExperience) {
   return (
     <div className="grid grid-cols-[40%_60%] mb-16">
         <div className="">
             <p>{created}</p>
             <img 
-                src={`/images/experience/${title.replaceAll(' ', '').toLowerCase()}.png`} 
+                src={image} 
                 alt={title} 
                 className='mt-2 w-[90%]'
             />
@@ -18,7 +19,7 @@ function ExperienceCard({title, created, descripttion, skill, link}) {
             </a>
             <ul className="list-inside list-disc mb-12">
                 {
-                descripttion.map((value, index) => (
+                description.map((value, index) => (
                     <li key={index}>{value}</li>
                 ))
                 }
@@ -33,14 +34,6 @@ function ExperienceCard({title, created, descripttion, skill, link}) {
         </div>
     </div>
   )
-}
-
-ExperienceCard.propTypes = {
-    title: PropTypes.string,
-    created: PropTypes.string,
-    descripttion: PropTypes.array,
-    skill: PropTypes.array,
-    link: PropTypes.string
 }
 
 export default ExperienceCard

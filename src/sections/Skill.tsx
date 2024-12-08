@@ -1,3 +1,4 @@
+import React from 'react'
 import { skills } from '../contents/skill'
 import SkillCard from '../components/SkillCard'
 

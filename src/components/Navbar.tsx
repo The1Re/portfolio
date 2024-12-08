@@ -1,16 +1,9 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
+import { sections } from '../contents/section'
 
 function Navbar() {
   const [activeSection, setActiveSection] = useState("Home")
-
-  const sections = [
-    "Home",
-    "About",
-    "Skill",
-    "Experience",
-    "Contact"
-  ]
-
+  
   useEffect(() => {
     const handleScroll = () => {
       const offsets = sections.map((section) => {
